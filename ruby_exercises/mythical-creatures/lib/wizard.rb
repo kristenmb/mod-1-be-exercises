@@ -1,7 +1,5 @@
-require "pry"
-
 class Wizard
-  attr_reader :name, :has_beard, :rested, :spell_cast_count
+  attr_reader :name, :has_beard
   attr_accessor :spell_cast_count, :rested
 
   def initialize(name, has_beard = true)
@@ -34,5 +32,4 @@ class Wizard
     end
     return "MAGIC MISSILE!"
   end
-
 end

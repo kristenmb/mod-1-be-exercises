@@ -19,7 +19,6 @@ RSpec.describe Wizard do
 
   it 'is not always bearded' do
     wizard = Wizard.new('Valerie', bearded: false)
-    # require "pry"; binding.pry
     expect(wizard.bearded?).to be false
   end
 
