@@ -1,7 +1,5 @@
-require "pry"
-
 class Dragon
-  attr_reader :name, :color, :rider, :is_hungry, :eat_count
+  attr_reader :name, :color, :rider
   attr_accessor :eat_count, :is_hungry
 
   def initialize(name, color, rider)
@@ -22,5 +20,4 @@ class Dragon
       self.is_hungry = false
     end
   end
-
 end

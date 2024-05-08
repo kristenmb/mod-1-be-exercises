@@ -1,5 +1,5 @@
 class Pirate
-  attr_reader :name, :job, :cursed, :booty, :heinous_act_count
+  attr_reader :name, :job
   attr_accessor :heinous_act_count, :booty, :cursed
 
   def initialize(name, job = 'Scallywag')

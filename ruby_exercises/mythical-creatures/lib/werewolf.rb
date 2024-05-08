@@ -1,4 +1,3 @@
-require "pry"
 class Werewolf
   attr_reader :name, :location
   attr_accessor :human, :wolf, :hungry, :eat_count
@@ -39,6 +38,4 @@ class Werewolf
     victim.status = :dead
     end
   end
-
-
 end
